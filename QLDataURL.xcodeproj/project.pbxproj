@@ -65,6 +65,7 @@
 		313E4C7516175D2000FA42EC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		313E4C7816175F3A00FA42EC /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
 		313E4C7A1617840500FA42EC /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		313E4C7C1617873400FA42EC /* Warnings.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Warnings.xcconfig; path = Warnings/Warnings.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +154,7 @@
 		313E4C3C1616A13600FA42EC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				313E4C7C1617873400FA42EC /* Warnings.xcconfig */,
 				313E4C3D1616A13600FA42EC /* QLDataURL-Info.plist */,
 				313E4C3E1616A13600FA42EC /* InfoPlist.strings */,
 				313E4C411616A13600FA42EC /* main.m */,
@@ -363,6 +365,7 @@
 /* Begin XCBuildConfiguration section */
 		313E4C611616A13700FA42EC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 313E4C7C1617873400FA42EC /* Warnings.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -393,6 +396,7 @@
 		};
 		313E4C621616A13700FA42EC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 313E4C7C1617873400FA42EC /* Warnings.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
