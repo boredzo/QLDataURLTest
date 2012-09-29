@@ -7,59 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		313E4C361616A13600FA42EC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 313E4C351616A13600FA42EC /* Cocoa.framework */; };
-		313E4C401616A13600FA42EC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 313E4C3E1616A13600FA42EC /* InfoPlist.strings */; };
-		313E4C421616A13600FA42EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 313E4C411616A13600FA42EC /* main.m */; };
-		313E4C461616A13600FA42EC /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 313E4C441616A13600FA42EC /* Credits.rtf */; };
-		313E4C491616A13600FA42EC /* PRHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 313E4C481616A13600FA42EC /* PRHAppDelegate.m */; };
-		313E4C4C1616A13700FA42EC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 313E4C4A1616A13700FA42EC /* MainMenu.xib */; };
 		313E4C541616A13700FA42EC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 313E4C531616A13700FA42EC /* SenTestingKit.framework */; };
 		313E4C551616A13700FA42EC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 313E4C351616A13600FA42EC /* Cocoa.framework */; };
 		313E4C5D1616A13700FA42EC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 313E4C5B1616A13700FA42EC /* InfoPlist.strings */; };
 		313E4C601616A13700FA42EC /* QLDataURLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 313E4C5F1616A13700FA42EC /* QLDataURLTests.m */; };
-		313E4C6C1616A1BB00FA42EC /* PRHThumbnailsWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 313E4C6A1616A1BB00FA42EC /* PRHThumbnailsWindowController.m */; };
-		313E4C6E1616A1CE00FA42EC /* PRHThumbnailsWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 313E4C701616A1CE00FA42EC /* PRHThumbnailsWindowController.xib */; };
-		313E4C731617584700FA42EC /* NSData+PRHDataURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 313E4C721617584700FA42EC /* NSData+PRHDataURL.m */; };
 		313E4C741617584700FA42EC /* NSData+PRHDataURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 313E4C721617584700FA42EC /* NSData+PRHDataURL.m */; };
 		313E4C7616175D2000FA42EC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 313E4C7516175D2000FA42EC /* Security.framework */; };
-		313E4C7716175D3000FA42EC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 313E4C7516175D2000FA42EC /* Security.framework */; };
-		313E4C7916175F3A00FA42EC /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 313E4C7816175F3A00FA42EC /* QuickLook.framework */; };
-		313E4C7B1617840500FA42EC /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 313E4C7A1617840500FA42EC /* Quartz.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		313E4C561616A13700FA42EC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 313E4C281616A13600FA42EC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 313E4C301616A13600FA42EC;
-			remoteInfo = QLDataURL;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		313E4C311616A13600FA42EC /* QLDataURL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QLDataURL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		313E4C351616A13600FA42EC /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		313E4C381616A13600FA42EC /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		313E4C391616A13600FA42EC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		313E4C3A1616A13600FA42EC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		313E4C3D1616A13600FA42EC /* QLDataURL-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QLDataURL-Info.plist"; sourceTree = "<group>"; };
-		313E4C3F1616A13600FA42EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		313E4C411616A13600FA42EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		313E4C431616A13600FA42EC /* QLDataURL-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QLDataURL-Prefix.pch"; sourceTree = "<group>"; };
-		313E4C451616A13600FA42EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		313E4C471616A13600FA42EC /* PRHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PRHAppDelegate.h; sourceTree = "<group>"; };
-		313E4C481616A13600FA42EC /* PRHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PRHAppDelegate.m; sourceTree = "<group>"; };
-		313E4C4B1616A13700FA42EC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		313E4C521616A13700FA42EC /* QLDataURLTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QLDataURLTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		313E4C531616A13700FA42EC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		313E4C5A1616A13700FA42EC /* QLDataURLTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QLDataURLTests-Info.plist"; sourceTree = "<group>"; };
 		313E4C5C1616A13700FA42EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		313E4C5E1616A13700FA42EC /* QLDataURLTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLDataURLTests.h; sourceTree = "<group>"; };
 		313E4C5F1616A13700FA42EC /* QLDataURLTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLDataURLTests.m; sourceTree = "<group>"; };
-		313E4C691616A1BB00FA42EC /* PRHThumbnailsWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRHThumbnailsWindowController.h; sourceTree = "<group>"; };
-		313E4C6A1616A1BB00FA42EC /* PRHThumbnailsWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRHThumbnailsWindowController.m; sourceTree = "<group>"; };
-		313E4C6F1616A1CE00FA42EC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PRHThumbnailsWindowController.xib; sourceTree = "<group>"; };
 		313E4C711617584700FA42EC /* NSData+PRHDataURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+PRHDataURL.h"; sourceTree = "<group>"; };
 		313E4C721617584700FA42EC /* NSData+PRHDataURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+PRHDataURL.m"; sourceTree = "<group>"; };
 		313E4C7516175D2000FA42EC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
@@ -69,17 +36,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		313E4C2E1616A13600FA42EC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				313E4C7B1617840500FA42EC /* Quartz.framework in Frameworks */,
-				313E4C7916175F3A00FA42EC /* QuickLook.framework in Frameworks */,
-				313E4C361616A13600FA42EC /* Cocoa.framework in Frameworks */,
-				313E4C7716175D3000FA42EC /* Security.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		313E4C4E1616A13700FA42EC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -106,7 +62,6 @@
 		313E4C321616A13600FA42EC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				313E4C311616A13600FA42EC /* QLDataURL.app */,
 				313E4C521616A13700FA42EC /* QLDataURLTests.octest */,
 			);
 			name = Products;
@@ -138,12 +93,6 @@
 		313E4C3B1616A13600FA42EC /* QLDataURL */ = {
 			isa = PBXGroup;
 			children = (
-				313E4C4A1616A13700FA42EC /* MainMenu.xib */,
-				313E4C471616A13600FA42EC /* PRHAppDelegate.h */,
-				313E4C481616A13600FA42EC /* PRHAppDelegate.m */,
-				313E4C701616A1CE00FA42EC /* PRHThumbnailsWindowController.xib */,
-				313E4C691616A1BB00FA42EC /* PRHThumbnailsWindowController.h */,
-				313E4C6A1616A1BB00FA42EC /* PRHThumbnailsWindowController.m */,
 				313E4C711617584700FA42EC /* NSData+PRHDataURL.h */,
 				313E4C721617584700FA42EC /* NSData+PRHDataURL.m */,
 				313E4C3C1616A13600FA42EC /* Supporting Files */,
@@ -155,11 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				313E4C7C1617873400FA42EC /* Warnings.xcconfig */,
-				313E4C3D1616A13600FA42EC /* QLDataURL-Info.plist */,
-				313E4C3E1616A13600FA42EC /* InfoPlist.strings */,
-				313E4C411616A13600FA42EC /* main.m */,
 				313E4C431616A13600FA42EC /* QLDataURL-Prefix.pch */,
-				313E4C441616A13600FA42EC /* Credits.rtf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -186,23 +131,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		313E4C301616A13600FA42EC /* QLDataURL */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 313E4C631616A13700FA42EC /* Build configuration list for PBXNativeTarget "QLDataURL" */;
-			buildPhases = (
-				313E4C2D1616A13600FA42EC /* Sources */,
-				313E4C2E1616A13600FA42EC /* Frameworks */,
-				313E4C2F1616A13600FA42EC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = QLDataURL;
-			productName = QLDataURL;
-			productReference = 313E4C311616A13600FA42EC /* QLDataURL.app */;
-			productType = "com.apple.product-type.application";
-		};
 		313E4C511616A13700FA42EC /* QLDataURLTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 313E4C661616A13700FA42EC /* Build configuration list for PBXNativeTarget "QLDataURLTests" */;
@@ -215,7 +143,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				313E4C571616A13700FA42EC /* PBXTargetDependency */,
 			);
 			name = QLDataURLTests;
 			productName = QLDataURLTests;
@@ -244,24 +171,12 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				313E4C301616A13600FA42EC /* QLDataURL */,
 				313E4C511616A13700FA42EC /* QLDataURLTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		313E4C2F1616A13600FA42EC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				313E4C401616A13600FA42EC /* InfoPlist.strings in Resources */,
-				313E4C461616A13600FA42EC /* Credits.rtf in Resources */,
-				313E4C4C1616A13700FA42EC /* MainMenu.xib in Resources */,
-				313E4C6E1616A1CE00FA42EC /* PRHThumbnailsWindowController.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		313E4C4F1616A13700FA42EC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -289,17 +204,6 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		313E4C2D1616A13600FA42EC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				313E4C421616A13600FA42EC /* main.m in Sources */,
-				313E4C491616A13600FA42EC /* PRHAppDelegate.m in Sources */,
-				313E4C6C1616A1BB00FA42EC /* PRHThumbnailsWindowController.m in Sources */,
-				313E4C731617584700FA42EC /* NSData+PRHDataURL.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		313E4C4D1616A13700FA42EC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -311,53 +215,13 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		313E4C571616A13700FA42EC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 313E4C301616A13600FA42EC /* QLDataURL */;
-			targetProxy = 313E4C561616A13700FA42EC /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		313E4C3E1616A13600FA42EC /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				313E4C3F1616A13600FA42EC /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		313E4C441616A13600FA42EC /* Credits.rtf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				313E4C451616A13600FA42EC /* en */,
-			);
-			name = Credits.rtf;
-			sourceTree = "<group>";
-		};
-		313E4C4A1616A13700FA42EC /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				313E4C4B1616A13700FA42EC /* en */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
 		313E4C5B1616A13700FA42EC /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				313E4C5C1616A13700FA42EC /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		313E4C701616A1CE00FA42EC /* PRHThumbnailsWindowController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				313E4C6F1616A1CE00FA42EC /* en */,
-			);
-			name = PRHThumbnailsWindowController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -418,30 +282,6 @@
 			};
 			name = Release;
 		};
-		313E4C641616A13700FA42EC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "QLDataURL/QLDataURL-Prefix.pch";
-				INFOPLIST_FILE = "QLDataURL/QLDataURL-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		313E4C651616A13700FA42EC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "QLDataURL/QLDataURL-Prefix.pch";
-				INFOPLIST_FILE = "QLDataURL/QLDataURL-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
 		313E4C671616A13700FA42EC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -484,14 +324,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		313E4C631616A13700FA42EC /* Build configuration list for PBXNativeTarget "QLDataURL" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				313E4C641616A13700FA42EC /* Debug */,
-				313E4C651616A13700FA42EC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
 		313E4C661616A13700FA42EC /* Build configuration list for PBXNativeTarget "QLDataURLTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -499,6 +331,7 @@
 				313E4C681616A13700FA42EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
