@@ -61,11 +61,12 @@
 	QLThumbnailRef thumbnailAttempt = QLThumbnailCreate(kCFAllocatorDefault, (__bridge CFURLRef)self.imageDataURL, self.imageSize, (__bridge CFDictionaryRef)options);
 	if (thumbnailAttempt) {
 		thumbnailCGImage = QLThumbnailCopyImage(thumbnailAttempt);
+		if (thumbnailCGImage) {
+			self.dispatchObtainedThumbnailImage = [[NSImage alloc] initWithCGImage:thumbnailCGImage size:self.imageSize];
+			CFRelease(thumbnailCGImage);
+		}
+
 		CFRelease(thumbnailAttempt);
-	}
-	if (thumbnailCGImage) {
-		self.dispatchObtainedThumbnailImage = [[NSImage alloc] initWithCGImage:thumbnailCGImage size:self.imageSize];
-		CFRelease(thumbnailCGImage);
 	}
 
 	thumbnailAttempt = QLThumbnailCreate(kCFAllocatorDefault, (__bridge CFURLRef)self.imageDataURL, self.imageSize, (__bridge CFDictionaryRef)options);
