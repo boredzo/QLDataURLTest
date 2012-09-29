@@ -24,6 +24,7 @@
 		313E4C7616175D2000FA42EC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 313E4C7516175D2000FA42EC /* Security.framework */; };
 		313E4C7716175D3000FA42EC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 313E4C7516175D2000FA42EC /* Security.framework */; };
 		313E4C7916175F3A00FA42EC /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 313E4C7816175F3A00FA42EC /* QuickLook.framework */; };
+		313E4C7B1617840500FA42EC /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 313E4C7A1617840500FA42EC /* Quartz.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		313E4C721617584700FA42EC /* NSData+PRHDataURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+PRHDataURL.m"; sourceTree = "<group>"; };
 		313E4C7516175D2000FA42EC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		313E4C7816175F3A00FA42EC /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
+		313E4C7A1617840500FA42EC /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				313E4C7B1617840500FA42EC /* Quartz.framework in Frameworks */,
 				313E4C7916175F3A00FA42EC /* QuickLook.framework in Frameworks */,
 				313E4C361616A13600FA42EC /* Cocoa.framework in Frameworks */,
 				313E4C7716175D3000FA42EC /* Security.framework in Frameworks */,
@@ -115,6 +118,7 @@
 				313E4C531616A13700FA42EC /* SenTestingKit.framework */,
 				313E4C7516175D2000FA42EC /* Security.framework */,
 				313E4C7816175F3A00FA42EC /* QuickLook.framework */,
+				313E4C7A1617840500FA42EC /* Quartz.framework */,
 				313E4C371616A13600FA42EC /* Other Frameworks */,
 			);
 			name = Frameworks;

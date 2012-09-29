@@ -11,8 +11,9 @@
 #import "NSData+PRHDataURL.h"
 
 #import <QuickLook/QuickLook.h>
+#import <Quartz/Quartz.h>
 
-@interface PRHThumbnailsWindowController ()
+@interface PRHThumbnailsWindowController () <QLPreviewPanelDataSource>
 
 @property NSSize imageSize;
 @property(copy) NSURL *imageDataURL;
@@ -83,6 +84,27 @@
 			CFRelease(thumbnailAttempt);
 		});
 	}
+
+	QLPreviewPanel *previewPanel = [QLPreviewPanel sharedPreviewPanel];
+	[previewPanel makeKeyAndOrderFront:nil];
+}
+
+- (BOOL) acceptsPreviewPanelControl:(QLPreviewPanel *)panel {
+	return YES;
+}
+- (void) beginPreviewPanelControl:(QLPreviewPanel *)panel {
+	panel.dataSource = self;
+}
+- (void) endPreviewPanelControl:(QLPreviewPanel *)panel {
+	panel.dataSource = nil;
+}
+
+- (NSInteger) numberOfPreviewItemsInPreviewPanel:(QLPreviewPanel *)panel {
+	return 1L;
+}
+
+- (id <QLPreviewItem>) previewPanel:(QLPreviewPanel *)panel previewItemAtIndex:(NSInteger)idx {
+	return self.imageDataURL;
 }
 
 @end
